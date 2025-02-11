@@ -28,7 +28,7 @@ class _Home_screenState extends State<Home_screen> {
               c: CATEGORIES[index],
             );
           },
-          itemCount: 4,
+          itemCount: CATEGORIES.length,
         ));
   }
 }
